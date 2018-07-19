@@ -7,6 +7,7 @@ package api_interfaces;
 
 import Pojo.Data;
 import Pojo.DataList;
+import Pojo.ResponseMessage;
 import java.util.ArrayList;
 
 /**
@@ -14,7 +15,7 @@ import java.util.ArrayList;
  * @author hoda.CO
  */
 public interface DataApiInt {
-    public void insertNum(Data number);
+    public ResponseMessage insertNum(Data number);
     public DataList getAllReviews();
     
 }
